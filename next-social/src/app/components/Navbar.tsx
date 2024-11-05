@@ -43,7 +43,7 @@ const Navbar = () => {
                             <Image src="/people.png" alt="" width={24} height={24}/>
                         </div>
                         <div className="cursor-pointer">
-                            <Image src="/message.png" alt="" width={20} height={20}/>
+                            <Image src="/messages.png" alt="" width={20} height={20}/>
                         </div>
                         <div className="cursor-pointer">
                             <Image src="/notifications.png" alt="" width={20} height={20}/>
