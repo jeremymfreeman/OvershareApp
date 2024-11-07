@@ -1,6 +1,6 @@
-import LeftMenu from "../../components/LeftMenu";
-import RightMenu from "../../components/RightMenu";
-import Feed from "../../components/Feed";
+import LeftMenu from "../../components/leftMenu/LeftMenu";
+import RightMenu from "../../components/rightMenu/RightMenu";
+import Feed from "../../components/feed/Feed";
 import Image from "next/image";
 import prisma from "@/library/client";
 import { notFound } from "next/navigation";
