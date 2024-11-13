@@ -4,7 +4,7 @@ import { User } from '@prisma/client'
 import { auth } from '@clerk/nextjs/server';
 import prisma from '@/library/client';
 import UserInfoCardInteraction from './UserInfoCardInteraction';
-import UpdateUser from './updateUser';
+import UpdateUser from './UpdateUser';
 
 const UserInfoCard = async ({user}:{user:User}) => {
 
