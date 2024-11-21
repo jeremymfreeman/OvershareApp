@@ -1,13 +1,15 @@
 "use client"
 
 import { switchLike } from "@/library/actions"
-import { useAuth } from "@clerk/nextjs"
+import { useAuth, useUser } from "@clerk/nextjs"
 import Image from "next/image"
 import { useOptimistic, useState } from "react"
 
 const PostInteraction = ({ postId, likes, commentNumber}:{postId:number,likes:string[],commentNumber:number}) => {
 
-    const {isLoaded, userId} = useAuth()
+    const {isLoaded, user} = useUser()
+    // get the userId from the user object
+    const userId = user?.id
 
     const [likeState, setLikeState] = useState({
         likeCount: likes.length,
