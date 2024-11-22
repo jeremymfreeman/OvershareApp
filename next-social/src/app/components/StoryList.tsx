@@ -95,7 +95,10 @@ const StoryList = ({
       </CldUploadWidget>
       {/* STORY */}
       {optimisticStories.map((story) => (
-        <div
+        <a
+          href={story.img}
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex flex-col items-center gap-2 cursor-pointer"
           key={story.id}
         >
@@ -109,7 +112,7 @@ const StoryList = ({
           <span className="font-medium">
             {story.user.name || story.user.username}
           </span>
-        </div>
+        </a>
       ))}
     </>
   );
