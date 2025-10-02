@@ -1,13 +1,17 @@
 @echo off
-echo === Installing dependencies ===
-call npm install
+REM === OvershareApp Start Script ===
 
-echo === Setting environment variables ===
-set MONGO_URI=your-mongodb-uri
-set SESSION_SECRET=your-secret-key
-set PORT=3000
+REM Change to the directory of this script
+cd /d "%~dp0"
 
-echo === Starting Overshare App ===
-call npm start
+REM Install dependencies if node_modules is missing
+if not exist "node_modules" (
+    echo Installing dependencies...
+    npm install
+)
+
+REM Start the development server
+echo Starting OvershareApp...
+npm run dev
 
 pause
