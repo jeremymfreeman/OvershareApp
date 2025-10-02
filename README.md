@@ -1,13 +1,17 @@
 # OvershareApp
 
 ## Overview  
-**OvershareApp** is a social web application prototype built with **React, TypeScript, and Vite**.  
+**OvershareApp** is a social web application prototype that I developed with one other Computer Science student as part of our **Web Application Development (Sophomore Year Project)** course at California Baptist University.  
 
-This project was developed by a **team of 2 Computer Science students** as part of the **Web Application Development Class a (Sophomore Year Project)** at California Baptist University.  
+As the **primary developer**, I was responsible for:  
+- Building the application frontend using **React, TypeScript, and Vite**  
+- Designing and implementing the **feed system** where users can share thoughts, images, and videos  
+- Setting up the **authentication flow** for login and registration  
+- Managing project structure, tooling, and ensuring a clean, modular codebase  
 
-OvershareApp allows users to **share thoughts, images, and videos in a feed-based interface**. The app focuses on providing a **responsive, interactive, and modular frontend** experience, making it a strong portfolio example of React skills, component-driven design, and modern web tooling.
+My teammate focused on UI/UX design contributions, while I handled the majority of the programming and integration.  
 
-The app demonstrates a feed-driven social platform where users can share posts, interact, and view **dynamic updates in real time**.  
+The result was a prototype social platform with a responsive, interactive interface that demonstrates my ability to build scalable React applications with modern development practices.  
 
 ---
 
