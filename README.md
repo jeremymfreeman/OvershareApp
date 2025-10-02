@@ -54,11 +54,11 @@ The result was a prototype social platform with a responsive, interactive interf
 
 ---
 
-## 🚀 Demo
+## Demo
 
 Experience a live demonstration of OvershareApp:
 
-🎥 **Demo Video:** [YouTube Link](https://youtu.be/J_KTx4uSgCc)
+**Demo Video:** [YouTube Link](https://youtu.be/J_KTx4uSgCc)
 
 
 
